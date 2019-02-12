@@ -13,3 +13,28 @@ body {
     padding-top: 56px;
   }
 }
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0;
+  transition: all 500ms ease;
+}
+
+.gallery-container {
+  overflow: hidden;
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  max-height: 500px;
+  max-width: 600px;
+}
+
+.gallery__item {
+  list-style: none;
+  height: 500px;
+  min-width: 1000px;
+  background-position: center center;
+  background-size: cover;
+}
